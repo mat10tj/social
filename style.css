@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  background-color: hsl(225, 17%, 14%);
+}
 .attribution {
   font-size: 11px; text-align: center;
 }
@@ -11,11 +14,22 @@
 }
 
 .upperBody {
-  background-color: hsl(232, 19%, 15%);
-  height: 30vh;
+  /* background-color: hsl(232, 19%, 15%); */
+  height: 25vh;
   border-radius: 20px
 }
+.upperBody h1 {color:hsl(0, 0%, 100%);}
 
 body {
-  background-color: hsl(225, 17%, 14%);
+  background-color: hsl(232, 19%, 15%);
+  padding: 50px 150px 0px 160px;
+  font-family: 'Inter', sans-serif;
+}
+
+.light {
+  color: hsl(228, 34%, 66%);
+}
+
+.header {
+  
 }
